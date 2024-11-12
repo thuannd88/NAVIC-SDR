@@ -1,0 +1,5 @@
+fid=fopen(str,'rb');
+fid=fopen(str,'rb');
+
+[gpsdata1,scount] = fread(file1,n_code_extr*sampletype*f_sampling*code_length/code_rate,'int16');
+[gpsdata2,scount] = fread(file2,n_code_extr*sampletype*f_sampling*code_length/code_rate,'int16');
