@@ -14,7 +14,7 @@ global f_sampling; f_sampling = 81e6; % sampling frequency [Hz]
 global nominalfreq; nominalfreq = -13.550e6; % IF frequency [Hz]
 % global sampletype; sampletype = 2;
 
-global code_rate; code_rate =  1.023e6;
+global code_rate; code_rate =  1.023e6; %init
 
 global code_length; code_length = 1023;
 
